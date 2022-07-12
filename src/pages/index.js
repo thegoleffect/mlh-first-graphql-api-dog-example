@@ -10,8 +10,9 @@ export default function Home() {
 
 			<main className={styles.main}>
 				<h1 className={styles.title}>
-					<img src="/public/mlh-logo.png" width="50%" />
+					<img src="/mlh-logo.png" width="50%" />
 				</h1>
+				<a href="/api/gql">Click here for GraphQL API</a>
 			</main>
 
 			<footer className={styles.footer}>
